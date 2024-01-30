@@ -20,7 +20,6 @@ with open(path, 'r') as csvfile:
 pygame.init()
 screen = pygame.display.set_mode((800, 600))
 pygame.display.set_caption('Flash Cards')
-clock = pygame.time.Clock()
 text_font = pygame.font.SysFont("Arial", 20)
 
 current_question = ""
@@ -100,7 +99,6 @@ while True:
 
     pygame.display.update()
 
-    clock.tick(60)
 
     
 

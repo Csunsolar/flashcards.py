@@ -1,0 +1,1 @@
+This is a program that converts a CSV file into flashcards for studying. The CSV file should have two columns with headers. The first column should contains the terms while the second column should contain their corresponding definitions.
